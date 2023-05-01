@@ -1,0 +1,23 @@
+
+.card-hover:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  .card-hover  {
+    transition: transform 0.1s ease-out;
+  }
+  
+  .card-hover:hover {
+    transform: scale(1.1);
+  }
+  
+  .card-hover .card-btn {
+    opacity: 0;
+    transition: opacity 0.0s ease-in-out;
+  }
+  
+  .card-hover:hover .card-btn {
+    opacity: 1;
+  }
+  
